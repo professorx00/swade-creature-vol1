@@ -1,0 +1,60 @@
+{
+  "id": "savage-world-creatures-vol1",
+  "name": "savage-world-creatures-vol1",
+  "title": "Savage World Creatures vol1",
+  "description": "A collection of creatures that are compatible with Savage Worlds Adventure Edition",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "David Ward",
+  "authors": [
+    {
+      "name": "David Ward",
+      "discord": "professorx00#3929"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Savage World Creatures vol1",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "swade"
+    },
+    {
+      "name": "items",
+      "label": "Savage World Creatures vol1",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "swade"
+    }
+  ],
+  "esmodules": ["./scripts/init.js"],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "https://github.com/professorx00/swade-creature-vol1",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
